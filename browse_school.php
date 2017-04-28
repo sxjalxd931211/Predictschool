@@ -24,7 +24,7 @@
 
 <?php
 require_once('db_setup.php');
-$sql = "USE jsun35;";
+$sql = "USE fxu9;";
 if ($conn->query($sql) === TRUE) {
    // echo "using Database jsun35";
 } else {
@@ -37,10 +37,10 @@ if ($conn->query($sql) === TRUE) {
 
 
 <?php
-$sql = "SELECT * FROM school";
+$sql = "SELECT * FROM School";
 $result = $conn->query($sql);
 
-if($result->num_rows > 0){
+if($result->num_rows >= 0){
 ?>
 
 <table class="bro_table">
@@ -64,13 +64,12 @@ while($row = $result->fetch_assoc()){
 ?>
 
 <tr>
-    <td><?php echo $row['SchoolNmae']?></td>
+    <td><?php echo $row['SchoolName']?></td>
     <td><?php echo $row['SchoolSize']?></td>
-    <td><?php echo $row['GenderRatio']?></td>
-    <td><?php echo $row['StudentFacultyRatio']?></td>
+    <td><?php echo $row['Gender_Ratio']?></td>
     <td><?php echo $row['Rank']?></td>
     <td><?php echo $row['Tuition']?></td>
-    <td><?php echo $row['SchoolLocation']?></td>
+    <td><?php echo $row['Location']?></td>
 </tr>
 
 <?php
@@ -86,7 +85,7 @@ echo "School not found";
 
 <?php
 $conn->close();
-?>  
+?>
 
 </div>
 </body>
