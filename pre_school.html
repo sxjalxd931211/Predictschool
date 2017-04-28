@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta  http-equiv="description" content="" />
+<meta http-equiv="keywords" content="" />
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+<title>Predict School</title>
+<link rel="stylesheet" href="css/school_search.css" type="text/css" />
+<link rel="stylesheet" href="css/common.css" type="text/css" />
+<link rel="stylesheet" href="css/reset.css" type="text/css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+</head>
+<body>
+<div class="background_of">
+<div class="sh_form">
+
+
+
+
+
+<!--head-->
+<div class="of_title">
+<h>Univarsity Offer Prediction</h>
+<p>Created by CSC261/461 Team 7</p>
+</div>
+<!--head end-->
+
+<div>
+<form action="find_user.php" method="post" class="information">
+<!--Personal Information-->
+<h>Personal Information</h>
+<div>
+	<span>Gender</span>
+	<div class="Checkbox" style="margin-left:14%;">  
+		<input type="radio" name="famale" class="a_input_check">
+		<span>Female</span>  
+	</div>
+	<div class="Checkbox" style="margin-left:14%;">
+		<input type="radio" name="male" class="a_input_check">
+		<span>Male</span>
+	</div>
+</div>
+<!--Personal Information end-->
+
+<!--Application Information-->
+<h>Application Information</h>
+<div class="a_block">
+	<span class="a_exam">GPA</span>
+	<input type="text" name="gpa" class="a_input">
+	<p class="a_sub">4.0 Scale</p>
+</div>
+<div class="a_block">
+	<span class="a_exam">TOEFL</span>
+	<input type="text" name="toefl" class="a_input">
+	<p class="a_sub">0 - 120</p>
+</div>
+<div class="a_block">
+	<span class="a_exam">GRE</span>
+	<input type="text" name="gre" class="a_input">
+	<p class="a_sub">260 - 340</p>
+</div class="a_block">
+<!--Application Information end-->
+
+<!--Offer Information-->
+<div>Program Level *<input type="text" name="level" class="a_input"></div>
+<div>University *  <input type="text" name="uni" class="a_input" ></div>
+<div>Major *  <input type="text" name="major"  class="a_input"></div>
+<!--Offer Information end-->
+
+<input type="button" name="Update" value="Update" onlick="findButton()" id="of_update" />
+</form>
+</div>
+
+
+</div>
+</div>
+</body>
+</html>

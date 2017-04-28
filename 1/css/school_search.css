@@ -1,0 +1,223 @@
+/*body*/
+*{margin:0px;padding:0px;}
+body{font-family:microsoft yahei; font-size:20px;}
+.left{float:left;}
+.right{float:right}
+.header{overflow:hidden;}
+/*body end*/
+
+/*school_searching.html*/
+.background{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:url(../images/1.jpg) center repeat-x;
+}
+.window{
+	display:block;
+	position:fixed;
+	top:30%;
+	right:10%;
+	border:1px solid #666;
+	border-radius:15px;
+	background-color:#fff;
+	width:50%;
+	height:50%;
+}
+/*title*/
+.title{
+	text-align:center; 
+	font-size:35px !important;
+	font-weight:bold;
+	margin:20px;
+}
+/*option*/
+.sch_block{
+	margin:2% 7%;
+}
+.sch_l{
+	text-decoration: none;   
+}
+.sch_link{
+	color:#fff;
+	background-color: green;
+	font-size:20px !important;
+	border:1px solid #ddd;
+	border-radius:5px;
+	padding:3px;
+	text-align: center;
+}
+.option{
+	margin: 30px;
+}
+/*
+.opt_form{
+	margin-top: 10px;
+	line-height: 30px;
+	margin-left:5%;
+}
+#opt_go{
+	padding:10px;
+	border-radius:10px;
+	margin-left:35%;
+	margin-top:5%;
+	font-size:20px !important;
+	width:20%;
+	color:#fff;
+	background-color:green;
+}*/
+/*school_searching.html*/
+
+/*offer_info.html*/
+.background_of{
+	position:relative;
+	float:left;
+	margin-top:0;
+	margin-left:0;
+	width:100%;
+	background:url(../images/1.jpg) center repeat-x;
+    height:100%;
+}
+.sh_form{
+	float:left;
+	margin:5% 20%;
+	border:1px solid #666;
+	border-radius:15px;
+	background-color:#fff;
+	width:60%;
+}
+.of_title{
+	margin:3%;
+	border-bottom: 1px solid #ddd;
+}
+.of_title h{
+	font-size: 30px !important;
+	font-weight: bold;
+}
+.of_title p{
+	font-size: 22px !important;
+	color:#666;
+}
+.information{
+	font-size: 18px !important;
+	color: #666;
+	line-height: 30px;
+	margin-left:5%;
+}
+.information h{
+	font-size:23px !important;
+	color: #CD7F32;
+}
+.information div{
+	padding-left:10px;
+}
+.Checkbox{
+	display:inline-block;
+}
+.Checkbox input,span{
+	display:inline-block;
+}
+.a_sub{
+	color:#999;
+	line-height: 2px !important;
+	font-size:12px !important;
+	width:50px;
+}
+.a_input{
+	position:absolute;
+	right:30%;
+	display:inline-block;
+	border-radius:5px;
+	padding:5px;
+	width:30%;
+}
+.a_all{
+	position:relative;
+}
+.a_block{
+	height:35px;
+}
+.a_exam{
+	width:50px;
+}
+#of_update{
+	padding:10px;
+	border-radius:10px;
+	margin-left:35%;
+	margin-bottom:3%;
+	margin-top:2%;
+	font-size:20px !important;
+	width:20%;
+	color:#fff;
+	background-color:green;
+}
+
+/*bro_school.php*/
+.bro_table{
+	display:block;
+	position:fixed;
+	top:20%;
+	left:20%;
+	border:1px solid #666;
+	border-radius:15px;
+	background-color:#fff;
+	width:60%;
+	height:50%;
+	border-radius:2px;
+}
+.bro_title{
+	background-color: #ddd;
+	color:black;
+	font-size: 35px !important;
+}
+
+/*browse_school.html*/
+.search_window{
+	height:30% !important;
+}
+.o_input{
+	position:absolute;
+	right:36%;
+	display:inline-block;
+	border-radius:5px;
+	width:30%;
+	background:#e9eaeb url(../images/3.jpg) no-repeat 5px center;
+	background-size:15px auto;
+	font-size:15px;
+	color:#333;
+	padding-left:25px;
+}
+.search_block{
+	display:inline-block;
+	position:absolute;
+	right:10%;
+}
+
+.search_block a{
+	display:inline-block;
+}
+.search_link{
+	color:#fff;
+	background-color: green;
+	font-size:20px !important;
+	border:1px solid #ddd;
+	border-radius:5px;
+	padding:5px;
+	text-align: center;
+}
+.search_num{
+	position:absolute;
+	right:25%;
+	color:#666;
+}
+
+
+
+
+
+
+
+
+
